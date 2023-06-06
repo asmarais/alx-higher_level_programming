@@ -1,0 +1,1 @@
+In this project we will learn if, else and loops in python
