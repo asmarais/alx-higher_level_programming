@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-if number < 10:
+if number < 0:
+    n = -n
+if n < 10:
     last = number
 else:
     last = number % 10
