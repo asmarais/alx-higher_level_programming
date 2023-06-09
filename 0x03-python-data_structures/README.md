@@ -1,0 +1,1 @@
+In this project we will learn how to manipulate lists and tuples
