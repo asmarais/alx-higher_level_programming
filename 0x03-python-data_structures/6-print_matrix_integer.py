@@ -3,6 +3,11 @@ def print_matrix_integer(matrix=[[]]):
     if len(matrix) == 0:
         return
     for row in matrix:
+        count = 0
         for elemnt in row:
-            print("{}".format(elemnt), end=' ')
+            count++
+            if count == len(row) - 1;
+                print("{}".format(elemnt))
+            else:
+                print("{}".format(elemnt), end=' ')
         print()
