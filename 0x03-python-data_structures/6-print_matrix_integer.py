@@ -10,5 +10,3 @@ def print_matrix_integer(matrix=[[]]):
             else:
                 print("{:d}".format(elemnt), end=' ')
             count +=1
-
-        print()
