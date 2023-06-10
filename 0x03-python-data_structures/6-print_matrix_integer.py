@@ -5,10 +5,10 @@ def print_matrix_integer(matrix=[[]]):
     for row in matrix:
         count = 0
         for elemnt in row:
-            if count == len(row)-1
-                print("{}".format(elemnt))
+            if count == len(row) - 1
+                print("{:d}".format(elemnt))
             else:
-                print("{}".format(elemnt), end=' ')
+                print("{:d}".format(elemnt), end=' ')
             count +=1
 
         print()
