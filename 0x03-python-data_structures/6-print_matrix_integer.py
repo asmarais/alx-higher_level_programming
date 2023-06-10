@@ -6,7 +6,7 @@ def print_matrix_integer(matrix=[[]]):
         count = 0
         for elemnt in row:
             count +=1
-            if count == len(row) - 1;
+            if count == len(row) - 1
                 print("{}".format(elemnt))
             else:
                 print("{}".format(elemnt), end=' ')
