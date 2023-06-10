@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
-    if len(matrix) == 0 or all(len(row) == 0 for row in matrix):
+    if all(len(row) == 0 for row in matrix):
         print()
     for row in matrix:
         count = 0
