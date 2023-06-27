@@ -54,5 +54,4 @@ class Square:
         else:
             print('\n' * self.position[1], end="")
             for a in range(self.__size):
-                print(' ' * self.position[0], end="")
-                print('#' * self.size)
+                print(" " * self.position[0] + "#" * self.size)
