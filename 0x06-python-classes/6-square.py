@@ -35,7 +35,6 @@ class Square:
         else:
             self.__position = value
 
-
     @property
     def size(self):
         '''retrievs the size'''
@@ -58,7 +57,6 @@ class Square:
         '''prints a square with'#' '''
         if self.__size == 0:
             print()
-            return
         elif self.__position:
             print('\n' * self.position[1], end="")
             for a in range(self.__size):
