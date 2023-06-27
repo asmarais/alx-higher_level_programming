@@ -9,20 +9,20 @@ class Square:
         ''' initializes a class'''
         self.__size = size
 
-        @property
-        def size(self):
-            '''retrievs the size'''
-            return self.__size
+    @property
+    def size(self):
+        '''retrievs the size'''
+        return self.__size
 
-        @size.setter
-        def size(self, size):
-            '''sets the size'''
-            self.__size = size
-            if type(size) is not int:
-                raise TypeError('size must be an integer')
-            if size < 0:
-                raise ValueError('size must be >= 0')
+    @size.setter
+    def size(self, size):
+        '''sets the size'''
+        self.__size = size
+        if type(size) is not int:
+            raise TypeError('size must be an integer')
+        if size < 0:
+            raise ValueError('size must be >= 0')
 
-        def area(self):
-            '''returns the current square area'''
-            return self.__size * self.__size
+    def area(self):
+        '''returns the current square area'''
+        return self.__size * self.__size
