@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 '''1-rectangle.py: that defines a rectangle'''
 
+
 class Rectangle:
     '''Defines the Rectangle type'''
-    
+
     def __init__(self, width=0, height=0):
         '''Initialize a class Rectangle'''
 
