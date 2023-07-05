@@ -16,5 +16,5 @@ TypeError: text must be a string
 
 >>> text_indentation("hello.hey")
 hello.
-
+<BLANKLINE>
 hey
