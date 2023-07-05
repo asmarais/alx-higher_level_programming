@@ -1,7 +1,8 @@
 3-say_my_name.py Module:
 =====================
 >>> say_my_name = __import__('3-say_my_name').say_my_name
-
+>>> say_my_name("asma", "rais")
+My name is asma rais
 >>> say_my_name()
 Traceback (most recent call last):
 ...
