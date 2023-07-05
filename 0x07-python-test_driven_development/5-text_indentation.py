@@ -1,4 +1,17 @@
+#!/usr/bin/python3
+
+
+'''
+   5-text_indentation. function
+
+   a function that prints a text with 2 new lines
+'''
+
+
 def text_indentation(text):
+    '''
+    Python function that prints a text with 2 new lines
+    '''
     if not isinstance(text, str):
         raise TypeError("text must be a string")
 
