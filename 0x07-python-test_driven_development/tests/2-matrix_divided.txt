@@ -39,6 +39,8 @@ TypeError: matrix_divided() missing 2 required positional arguments: 'matrix' an
 >>> matrix_divided(None, 1)
 Traceback (most recent call last):
 
+>>>  matrix_divided([[1, 2, 3], [4, 5, 6]], float(inf))
+[[0.0, 0.0, 0.0], [0.0, 0.0, 0.0]]
 
 >>> matrix_divided([[1, 2, 3], [4, 5, 6]], 3)
 [[0.33, 0.67, 1.0], [1.33, 1.67, 2.0]]
