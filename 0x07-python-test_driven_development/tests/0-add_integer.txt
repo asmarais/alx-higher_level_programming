@@ -21,7 +21,7 @@ Import "add_integer" from "0-add_integer' module
        Traceback (most recent call last):
        TypeError: a must be an integer
 
-       >>> add_integer(float("nan"))
+       >>> add_integer(float('nan'))
        Traceback (most recent call last):
        ValueError: cannot convert float NaN to integer
 
