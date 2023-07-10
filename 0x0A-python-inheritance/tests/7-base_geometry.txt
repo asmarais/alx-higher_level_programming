@@ -1,12 +1,12 @@
-# integer_validator test for BaseGeometry
-
+7-BaseGeometry Module
+=====================
 >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
-# Initialize Class
+
        >>> bg = BaseGeometry()
        >>> bg.integer_validator("check", 888)
 
-# Test using strings
+
        >>> bg.integer_validator("name", "Betty")
        Traceback (most recent call last):
        ...
@@ -27,25 +27,25 @@
        ...
        TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
 
-# Test with only one argument
+
        >>> bg.integer_validator("value")
        Traceback (most recent call last):
        ...
        TypeError: integer_validator() missing 1 required positional argument: 'value'
 
-# Test with None as an argument
+
        >>> bg.integer_validator("value", None)
        Traceback (most recent call last):
        ...
        TypeError: value must be an integer
 
-# Test for area
+
        >>> bg.area()
        Traceback (most recent call last):
        ...
        Exception: area() is not implemented
 
-# Test if second argument a list
+
        >>> bg.integer_validator("check", [8])
        Traceback (most recent call last):
        ...
