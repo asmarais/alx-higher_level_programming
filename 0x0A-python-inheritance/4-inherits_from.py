@@ -6,6 +6,7 @@
 
 
 def inherits_from(obj, a_class):
+   ''' return True or False'''
     if type(obj) != a_class and issubclass(type(obj), a_class):
         return True
     return False
