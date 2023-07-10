@@ -5,5 +5,5 @@
 '''
 
 
-def check_inheritance(obj, parent_class):
-    return issubclass(type(obj), parent_class)
+def inherits_from(obj, a_class):
+    return issubclass(type(obj), a_class)
