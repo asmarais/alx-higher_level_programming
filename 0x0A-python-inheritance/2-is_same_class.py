@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 '''
-2-is_same_class.py: 
-a function that returns True if the object is exactly an instance of the specified class ; otherwise False
+2-is_same_class.py:
+a function that returns True if the object is exactly an instance of the
+ specified class ; otherwise False
 '''
 
 
