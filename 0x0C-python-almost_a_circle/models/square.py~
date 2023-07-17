@@ -1,0 +1,27 @@
+#!/usr/bin/python3
+
+'''Square class module'''
+from models.rectangle import Rectangle
+
+
+class Square(Rectangle):
+    '''Square class attributes'''
+
+    def __init__(self, size, x=0, y=0, id=None):
+        '''Instantiation of Square attriutes'''
+        super().__init__(size, size, x, y, id)
+
+    def __str__(self):
+        '''print attribute with __str__'''
+        a, b, c, d = self.id, self.x, self.y, self.size
+        return ("[Square] ({}) {}/{} - {}".format(a, b, c, d))
+
+    @property
+    def size(self):
+        """Get/set the size of the Square."""
+        return self.width
+
+    @size.setter
+    def size(self, value):
+        self.width = value
+        self.height = value
