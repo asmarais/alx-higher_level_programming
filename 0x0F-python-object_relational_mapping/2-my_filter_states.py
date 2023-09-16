@@ -14,8 +14,7 @@ if __name__ == '__main__':
                          passwd=argv[2], db=argv[3])
 
     cur = db.cursor()
-    req = "SELECT * FROM states WHERE name LIKE BINARY\
-    'N%''{}'".format(argv[4])
+    req = "SELECT * FROM states WHERE name LIKE BINARY '{}'".format(argv[4])
     cur.execute(req)
 
     rows = cur.fetchall()
