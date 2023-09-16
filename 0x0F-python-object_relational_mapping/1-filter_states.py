@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-""" 
-Script that lists all states from the database 
-hbtn_0e_0_usa starting with N 
+"""
+Script that lists all states from the database
+hbtn_0e_0_usa starting with N
 """
 import MySQLdb
 from sys import argv
