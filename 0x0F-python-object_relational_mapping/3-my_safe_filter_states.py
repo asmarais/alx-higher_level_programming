@@ -14,8 +14,7 @@ if __name__ == '__main__':
                          passwd=argv[2], db=argv[3])
 
     cur = db.cursor()
-    req = "SELECT * FROM states WHERE BINARY name = %s", [argv[4]]
-    cur.execute(req)
+    cur.execute("SELECT * FROM states WHERE BINARY name = %s", [argv[4]])
 
     rows = cur.fetchall()
     for i in rows:
