@@ -8,10 +8,10 @@ def find_peak(list_of_integers):
     my_list = list_of_integers
     if my_list is None or len(my_list) == 0:
         return None
-    
+
     if len(my_list) == 1 or my_list[0] > my_list[1]:
         return my_list[0]
-        
+
     start = 0
     end = len(my_list) - 1
     while start < end:
@@ -23,6 +23,3 @@ def find_peak(list_of_integers):
         else:
             start = mid + 1
     return my_list[start]
-            
-        
-    
