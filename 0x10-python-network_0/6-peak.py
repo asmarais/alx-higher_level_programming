@@ -2,9 +2,10 @@
 """module that finds a peak in a list"""
 
 
-def find_peak(my_list):
+def find_peak(list_of_integers):
     """a function to find the peak of a list"""
 
+    my_list = list_of_integers
     if my_list is None or len(my_list) == 0:
         return None
     
