@@ -8,7 +8,7 @@ def find_peak(my_list):
     if my_list is None or len(my_list) == 0:
         return None
     
-    if len(my_list) == 1:
+    if len(my_list) == 1 or my_list[0] > my_list[1]:
         return my_list[0]
         
     start = 0
